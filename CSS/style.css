@@ -13,7 +13,7 @@
         margin: 0 auto;
     }
     .medium-container{
-        max-width: 1000px;
+        max-width: 1110px;
         margin: 0 auto;
     }
     .header-Text{
@@ -68,10 +68,10 @@
     margin-bottom: 50px;
     }
     .half-width img{
-        width: 70%;
+        width: 60%;
         margin-left: 135px;
         background-image: url(../images/Background/Circle\ design.svg);
-        background-size:475px 475px;
+        background-size:420px 420px;
         background-repeat: no-repeat;
     }
     .btn-style{
@@ -106,9 +106,67 @@
         align-items: center;
         padding: 35px 0;
     }
+ /* section---2-end */
 
+ /* section---3-Start */
 
-    /*---------- navbar-responsive-Mobile--------- */
+ .heading-title{
+     text-align: center;
+     margin-top: 100px;
+     font-size: 28px;
+     font-weight: 600;
+ }
+ .Products{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     justify-items: center;
+     column-gap: 30px;
+     row-gap: 30px;
+ }
+ .latest-products{
+     width: 300px;
+     height: 500px;
+     box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+     border-radius: 5px;
+     padding: 15px 15px;
+
+ }
+.product-image{
+    width: 300px;
+    border-radius: 5px;
+}
+.product-image img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+.product-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+.product-price{
+    font-size: 24px;
+}
+.product-rating{
+    font-size: 12px;
+}
+.filled{
+    color: #FB8200;
+}
+.not-filled{
+    color: lightgrey;
+}
+.product-description{
+    font-weight: 700;
+    font-size: 14px;
+}
+.product-description a{
+    text-decoration: none;
+    color: #787885;
+}
+
+    /*----------responsive-Mobile--------- */
+      /*---------- navbar---------- */
     @media screen and (max-width: 660px){
         .container{
             width: 100%;
@@ -126,6 +184,7 @@
         .menu  a {
             text-align: center;
         }
+         /*---------- navbar End---------- */
     /*---------- section-1-responsive-Mobile--------- */
     .flex-conatiner{
         flex-direction: column-reverse;
@@ -155,6 +214,7 @@
     }
 /*---------- section-1-responsive-Mobile end--------- */
 
+ /*---------- Section 2 ---------- */
 .quick-links{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -163,6 +223,14 @@
     padding: 20px;
 }
 
+ /*---------- Section 2 End ---------- */
+
+ /*---------- Section 3 Start ---------- */
+.Products{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
 }
 
     
