@@ -164,11 +164,28 @@
     text-decoration: none;
     color: #787885;
 }
+.btn-style-2{
+    text-decoration: none;
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.btn-style-2 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #4d94ff;
+}
+/* ----section----3---end */
 
+  
     /*----------responsive-Mobile--------- */
       /*---------- navbar---------- */
     @media screen and (max-width: 660px){
         .container{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .medium-container{
             width: 100%;
             margin: 0 auto;
         }
@@ -228,8 +245,12 @@
  /*---------- Section 3 Start ---------- */
 .Products{
     display: grid;
+    grid-template-columns: repeat(1,1fr);  
+}
+.btn-style-2{
+    display: grid;
     grid-template-columns: repeat(1,1fr);
-    
+    text-align: center;
 }
 }
 
