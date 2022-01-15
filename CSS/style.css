@@ -176,6 +176,45 @@
     color: #4d94ff;
 }
 /* ----section----3---end */
+/*------------ Footer------style---------- */
+/*-------- footer-start------ */
+.footer-style{
+    background-color: #0A0826;
+    width: 100%;
+    height: 240px;
+}
+.footer-style h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    font-weight: 700;
+}
+.footer-style p{
+    text-align: center;
+    color: seashell;
+    font-size: 15px;
+    font-weight: 700;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links ul li{
+    list-style: none;
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer-links ul li a{
+    color: white;
+    margin-right: 25px;
+   background-color: rgba(128, 128, 128, 0.356);
+    padding: 3px 8px ;
+    border-radius: 20px;
+
+}
+/*-------- footer-End------ */
 
   
     /*----------responsive-Mobile--------- */
@@ -252,6 +291,15 @@
     grid-template-columns: repeat(1,1fr);
     text-align: center;
 }
+/*---------- Section 3 end ---------- */
+.footer-style{
+    background-color: #0A0826;
+    width: 100%;
+    height: 350px;
 }
+}
+
+
+
 
     
